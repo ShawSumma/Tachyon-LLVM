@@ -1,0 +1,1 @@
+if python3.6 -B core/main.py $1; then lli core/emit/main.ll -O3; fi
